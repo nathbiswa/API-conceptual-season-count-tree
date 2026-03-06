@@ -27,7 +27,7 @@ async function loadCategoryBtn() {
     //  work-8
     // category button select function
     async function selectCategory(categoryid, btn) {
-        // console.log(categoryid, btn);
+        console.log(categoryid, btn);
         showSpinner();
         const allBtn = document.querySelectorAll('#categorisContainer button, #AllTreesbtn');
         allBtn.forEach((btn) => {
