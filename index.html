@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API seasson Project</title>
+    <!-- DaysiUi + Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Css ling -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <main>
+        <section class="choose-tree">
+            <div class="choose-heading">
+                <h1 class="text-green-500 text-4xl text-center font-bold py-2">Choose Your Trees</h1>
+            </div>
+        </section>
+
+        <section class="choose-container grid grid-cols-12 gap-4 w-11/12 mx-auto">
+            <div id="choose-left" class=" card card-body bg-white shadow-md col-span-3">
+                <h2>category</h2>
+                <div>
+                    <button id="AllTreesbtn" class="btn btn-active btn-primary w-full my-2 text-white">All
+                        trees</button>
+                    <div id="categorisContainer" class="space-y-2">
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="choose-middle" class="col-span-6 card card-body bg-white shadow-md">
+                <!-- tree container load -->
+                <div id="loading-spinner" class=" h-[90vh] w-full mx-auto hidden flex justify-center items-center">
+
+                    <span class="loading loading-spinner loading-xl"></span>
+                </div>
+
+                <div id="tree-container" class=" grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <!-- tree card dianamic load -->
+
+                </div>
+
+            </div>
+            <div id="choose-right" class="col-span-3 bg-red-200">add to card</div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

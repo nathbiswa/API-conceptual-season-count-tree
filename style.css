@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.btn-primary{
+    background-color: #15803D;
+    color: white;
+    border: none;
+}
