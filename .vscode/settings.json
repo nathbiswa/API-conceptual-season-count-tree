@@ -1,0 +1,10 @@
+{
+    "editor.inlineSuggest.experimental.emptyResponseInformation": false,
+    "editor.suggest.showIcons": false,
+    "editor.suggest.showFunctions": false,
+    "tailwindCSS.suggestions": false,
+    "js/ts.suggestionActions.enabled": false,
+    "emmet.showAbbreviationSuggestions": false,
+    "debug.console.historySuggestions": false,
+    "editor.screenReaderAnnounceInlineSuggestion": false
+}
